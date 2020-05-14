@@ -91,6 +91,7 @@ div.bordered span {
 }
 .block img {
   max-width: 300px;
+  max-height: 100px;
 }
 .block h2 {
   background-color: #b71434;
