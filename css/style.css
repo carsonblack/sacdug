@@ -74,6 +74,50 @@ div.bordered span {
   background: #038542;
 }
 
+.promotions {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 1rem;
+}
+.block {
+  color: #000;
+  background-color: #ffffff;
+  border: 1px solid #000;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.block img {
+  max-width: 300px;
+}
+.block h2 {
+  background-color: #b71434;
+  color: #ffffff;
+  padding: 1rem;
+  margin: 0;
+}
+.block p {
+  padding: 1rem;
+}
+.button {
+  display: inline-block;
+  padding: 1rem;
+  color: #ffffff;
+  background-color: #b71434;
+  width: 200px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #b71434;
+  border: 1px solid #b71434;
+}
+
 footer {
   position: relative;
   bottom: 0rem;
