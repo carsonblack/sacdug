@@ -46,6 +46,11 @@ body {
   width: 60%;
 }
 
+.simple {
+  width: 100%;
+  background: #333333;
+}
+
 input {
   font-size: 14px;
 }
