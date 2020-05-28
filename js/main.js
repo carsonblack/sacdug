@@ -32,12 +32,12 @@ const formatTime = (dateString) => {
 Vue.component('countdown', {
   template: `<div class="countdown">
     <div v-if="launched" class="launched">Launched!</div>
-    <div v-else>
+    <span v-else>
       <div class="bordered">{{ days }} <span>Days</span></div>
       <div class="bordered">{{ hours }} <span>Hours</span></div>
       <div class="bordered">{{ minutes }} <span>Minutes</span></div>
       <div class="bordered">{{ seconds }} <span>Seconds</span></div>
-    </div>
+    </span>
   </div>`,
   data() {
     return {
