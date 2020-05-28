@@ -65,6 +65,10 @@ input {
  flex-wrap: nowrap;
 }
 
+.launched {
+  color: #038542;
+}
+
 div.bordered {
   width: 20%;
   border: 1px solid #ffffff;
