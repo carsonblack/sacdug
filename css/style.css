@@ -90,6 +90,11 @@ div.bordered span {
   margin: 0;
   padding: 1rem;
 }
+
+.flexmost {
+ flex-grow: 2;
+}
+
 .block {
   color: #000;
   background-color: #ffffff;
@@ -98,19 +103,27 @@ div.bordered span {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
+
 .block img {
   max-width: 300px;
   max-height: 100px;
 }
+
 .block h2 {
   background-color: #b71434;
   color: #ffffff;
   padding: 1rem;
   margin: 0;
 }
+
 .block p {
   padding: 1rem;
 }
+
+.datetime {
+  padding: .5rem
+}
+
 .button {
   display: inline-block;
   padding: 1rem;
