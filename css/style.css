@@ -27,7 +27,7 @@ body {
 }
 
 .landing h1, .countdown {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .landing p {
@@ -46,13 +46,50 @@ body {
   width: 60%;
 }
 
+<<<<<<< HEAD
 .simple {
   width: 100%;
   background: #333333;
 }
 
+=======
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0.83rem;
+}
+
+.horizon-block {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0rem 3rem 0rem;
+}
+
+.horizon-block h2 {
+  font-size: 3rem;
+}
+
+
+>>>>>>> master
 input {
   font-size: 14px;
+}
+
+.light {
+  color: #ffffff;
+}
+
+.outline {
+  text-shadow: -1px 1px 0 #019cde,
+				  1px 1px 0 #019cde,
+				 1px -1px 0 #019cde,
+				-1px -1px 0 #019cde;
+}
+
+.thumbnail {
+  width: 5rem;
+  height: 5rem;
 }
 
 .countdown {
