@@ -46,13 +46,11 @@ body {
   width: 60%;
 }
 
-<<<<<<< HEAD
 .simple {
   width: 100%;
   background: #333333;
 }
 
-=======
 h2 {
   font-size: 2rem;
   margin: 0;
@@ -71,7 +69,6 @@ h2 {
 }
 
 
->>>>>>> master
 input {
   font-size: 14px;
 }
